@@ -31,9 +31,9 @@ return [
     ],
 
     'linkedin' => [
-        'client_id' => '8120utjthv77el',
-        'client_secret' => 'KwFy85U1BfX5iVcM',
-        'redirect' => 'http://127.0.0.1:8000/callback/linkedin',
+        'client_id' => env('LINKEDIN_CLIENT_ID'),
+        'client_secret' => env('LINKEDIN_CLIENT_SECRET'),
+        'redirect' => env('LINKEDIN_REDIRECT_URL', 'http://127.0.0.1:8000/callback/linkedin'),
     ], 
 
 ];
