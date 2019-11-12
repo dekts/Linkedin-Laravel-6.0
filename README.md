@@ -17,7 +17,11 @@
 
 <code>git clone https://github.com/dekts/Linkedin-Laravel-6.0.git</code>
 
+run command: `composer install` to project root directory
+
 copy `.env.example` to `.env`
+
+run command: `php artisan key:generate`
 
 setup `DB_*` and `LINKEDIN_*` parameters
 
